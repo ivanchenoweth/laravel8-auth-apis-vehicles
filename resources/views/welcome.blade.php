@@ -36,6 +36,10 @@
     <div>
         <a href="http://localhost:8000/reactjs" class="underline text-gray-900 dark:text-white">Go to standalone React App</a>
     </div>
+    <div>
+        <a href="https://github.com/ivanchenoweth/laravel8-auth-apis-vehicles" class="underline text-gray-900 dark:text-white" target="_blank" >Github source code</a>
+    </div>
+    
     <div> <em>
     Vehicle V1.1 2022 - IRCH . <a href="https://mx.linkedin.com/in/ivanchenoweth" target="_blank" >https://mx.linkedin.com/in/ivanchenoweth</a>
         </em></div>
