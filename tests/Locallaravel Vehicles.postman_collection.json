@@ -1,0 +1,226 @@
+{
+	"id": "9d4b101a-d179-0408-34e4-098aee75fbc4",
+	"name": "Locallaravel Vehicles",
+	"description": "",
+	"order": [
+		"101e74fa-b5fa-6872-ac6a-50649a355c63",
+		"81a3e03e-705d-8d2e-9ec5-97a2f3968c45",
+		"cf9bcb2b-2f48-1729-12ad-aed450895449",
+		"ba2fdb6a-a0ac-1fa3-5233-f8981e3e3297",
+		"25454158-2b17-19d8-f10a-7e2bc8166eda",
+		"d1a6099a-2359-72fd-14b5-3bd58c079b5c"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1645323434325,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "101e74fa-b5fa-6872-ac6a-50649a355c63",
+			"headers": "Authorization: Bearer 2hvzidqIPCQRsEnEBWR8Rano4hIa8J\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer 2hvzidqIPCQRsEnEBWR8Rano4hIa8J",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{host}}/api/v1/vehicles",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1645402054803,
+			"name": "Laravel Local - Get Vehicles list",
+			"description": "",
+			"collectionId": "9d4b101a-d179-0408-34e4-098aee75fbc4",
+			"responses": []
+		},
+		{
+			"id": "25454158-2b17-19d8-f10a-7e2bc8166eda",
+			"headers": "Authorization: Bearer 2hvzidqIPCQRsEnEBWR8Rano4hIa8J\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer 2hvzidqIPCQRsEnEBWR8Rano4hIa8J",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{host}}/api/v1/vehicles",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "brand",
+					"value": "VW Beattle ",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type",
+					"value": "Sedan",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1645406447932,
+			"name": "Laravel Local POST a Sedan",
+			"description": "",
+			"collectionId": "9d4b101a-d179-0408-34e4-098aee75fbc4",
+			"responses": []
+		},
+		{
+			"id": "81a3e03e-705d-8d2e-9ec5-97a2f3968c45",
+			"headers": "Authorization: Bearer 2hvzidqIPCQRsEnEBWR8Rano4hIa8J\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer 2hvzidqIPCQRsEnEBWR8Rano4hIa8J",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{host}}/api/v1/vehicles/3",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1645427576182,
+			"name": "Laravel Local - Get a Vehicle by id",
+			"description": "",
+			"collectionId": "9d4b101a-d179-0408-34e4-098aee75fbc4",
+			"responses": []
+		},
+		{
+			"id": "ba2fdb6a-a0ac-1fa3-5233-f8981e3e3297",
+			"headers": "Authorization: Bearer 2hvzidqIPCQRsEnEBWR8Rano4hIa8J\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer 2hvzidqIPCQRsEnEBWR8Rano4hIa8J",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{host}}/api/v1/vehicles",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "brand",
+					"value": "Italika",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type",
+					"value": "MotorCycle",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1645406413362,
+			"name": "Laravel Local POST a MotoCycle",
+			"description": "",
+			"collectionId": "9d4b101a-d179-0408-34e4-098aee75fbc4",
+			"responses": []
+		},
+		{
+			"id": "cf9bcb2b-2f48-1729-12ad-aed450895449",
+			"headers": "Authorization: Bearer 2hvzidqIPCQRsEnEBWR8Rano4hIa8J\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer 2hvzidqIPCQRsEnEBWR8Rano4hIa8J",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{host}}/api/v1/profile",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1645402140239,
+			"name": "Laravel Local - User Profile",
+			"description": "",
+			"collectionId": "9d4b101a-d179-0408-34e4-098aee75fbc4",
+			"responses": []
+		},
+		{
+			"id": "d1a6099a-2359-72fd-14b5-3bd58c079b5c",
+			"headers": "",
+			"headerData": [],
+			"url": "{{host}}/api/v1/login",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "email",
+					"value": "ivanchenoweth@gmail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "!234qwerASDF",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1645474604721,
+			"name": "Laravel Local Login",
+			"description": "",
+			"collectionId": "9d4b101a-d179-0408-34e4-098aee75fbc4",
+			"responses": []
+		}
+	]
+}
