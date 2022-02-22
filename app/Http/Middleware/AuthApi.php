@@ -25,7 +25,7 @@ class AuthApi
         if (Str::startsWith($header, 'Bearer ')) {
             $api_token = Str::substr($header, 7);
         }
-        $user = User::where('api_token', '=', $api_token)->first();
+        @$user = User::where('api_token', '=', $api_token)->first();
         if (!$user) {
             return response()->json(['success'=>false, 'message' => 'Unautorized 1']);
         }

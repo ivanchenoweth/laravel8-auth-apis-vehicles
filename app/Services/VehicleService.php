@@ -22,20 +22,22 @@ class VehicleService
     }
 
     function create($request)
-    {
-        // TODO - Simple factory pattern to be more scalable
-        // https://phptherightway.com/pages/Design-Patterns.html
-        if (strcasecmp($request["type"], "sedan") == 0) {
-            $vehicle = new SedanService();
-            return $vehicle->create($request);
+    {        
+        //dd($request);
+        if (@$request["type"] && @$request["brand"]) {
+            // TODO - Simple factory pattern to be more scalable
+            // https://phptherightway.com/pages/Design-Patterns.html
+            if (@strcasecmp($request["type"], "sedan") == 0) {
+                $vehicle = new SedanService();
+                return $vehicle->create($request);
+            }
+            if (strcasecmp($request["type"], "MotorCycle") == 0) {
+                
+                $vehicle = new MotorCycleService();
+                return $vehicle->create($request);
+            }
         }
-        if (strcasecmp($request["type"], "MotorCycle") == 0) {
-            
-            $vehicle = new MotorCycleService();
-            return $vehicle->create($request);
-        }
-
-        return false; // uknown type of vehicle
+        return false; // error with data requested
     }
 
     function rules()

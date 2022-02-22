@@ -21,14 +21,27 @@
         </style>
     </head>
     <body class="antialiased">
-    <div>Exercise: It is required to create a car inventory control system in which only vehicles can be displayed and added to the system.
+        
+    <div class="mx-auto" style="width: 70%;">
+ 
+    
+    <div>Welcome! Exercise: Vehicle inventory control system in which only vehicles can be displayed and added to the system.
     </div> 
-    <div>    
+    <div class="px-1">    
     Only two types will be used in this exercise of vehicles (sedan and motorcycles), differentiating number of tires and engine power. 
     </div> 
     <div>
-    This seeks to categorize the type of vehicle using abstraction, inheritance, etc.
+        <a href="http://localhost:8000/register" class="underline text-gray-900 dark:text-white">Register a User</a>
     </div>
+    <div>
+        <a href="http://localhost:8000/reactjs" class="underline text-gray-900 dark:text-white">Go to standalone React App</a>
+    </div>
+    <div> <em>
+    Vehicle V1.1 2022 - IRCH . <a href="https://mx.linkedin.com/in/ivanchenoweth" target="_blank" >https://mx.linkedin.com/in/ivanchenoweth</a>
+        </em></div>
+</div>
+    
+    
         <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
             @if (Route::has('login'))
                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
@@ -43,6 +56,8 @@
                     @endauth
                 </div>
             @endif
+
+            
 
             <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
                 <div class="flex justify-center pt-8 sm:justify-start sm:pt-0">

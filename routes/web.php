@@ -17,6 +17,15 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
+Route::get('/vainillajs', function () {
+    return view('welcomejsvainilla');
+});
+
+Route::get('/reactjs', function () {
+    return view('welcomereact');
+});
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

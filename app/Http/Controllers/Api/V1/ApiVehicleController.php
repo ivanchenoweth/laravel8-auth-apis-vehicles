@@ -49,14 +49,13 @@ class ApiVehicleController extends Controller
     public function store(Request $request)
     {
 
-        //request()->validate($this->vehicleService->rules());
-        //dd($request->all());
+        //request()->validate($this->vehicleService->rules());        
         $ret =  $this->vehicleService->create($request->all());
         if ($ret == false) {
             return response()->json(
                 [
                     'success' => false,
-                    'message' => 'Data Error Requested'
+                    'message' => 'Data requested malformed'
                 ]
             );
         }
